@@ -3,7 +3,7 @@ import random
 
 def player():
     user = input("Chose one 'r' = rock,'p' = paper e 's' = scissors:")
-    computer = random.choice(['r', 'p', 't'])
+    computer = random.choice(['r', 'p', 's'])
     if user == computer:
         return 'Tie'
     if is_win(user, computer):
